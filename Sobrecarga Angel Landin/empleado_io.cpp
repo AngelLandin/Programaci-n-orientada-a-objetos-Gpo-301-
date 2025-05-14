@@ -3,7 +3,7 @@
 using namespace std;
 
 class Empleado{
-    public:
+public:
     string nombre;
     int id;
 
