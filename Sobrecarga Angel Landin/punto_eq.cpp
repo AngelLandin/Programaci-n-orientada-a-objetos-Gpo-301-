@@ -15,6 +15,7 @@ class Punto {
 int main(){
     Punto p1(2,4), p2(2,4);
     Punto p3(10, 20), p4(4,2);
-    cout << boolalpha << "Son iguales p1 y p2: " << (p1 == p2) << endl;
-    cout << boolalpha << "Son iguales p3 y p4: " << (p3 == p4) << endl;
+    cout << std::boolalpha;
+    cout << "Son iguales p1 y p2: " << (p1 == p2) << endl;
+    cout << "Son iguales p3 y p4: " << (p3 == p4) << endl;
 }

@@ -1,0 +1,2 @@
+Son iguales p1 y p2: true
+Son iguales p3 y p4: false
