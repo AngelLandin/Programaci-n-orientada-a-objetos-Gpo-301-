@@ -16,6 +16,11 @@ public:
     }
 
     Buffer& operator=(const Buffer& otro){
+        //datos = otro.datos; BUG: ¿qué problema surge aquí?
+        //Le asignamos a datos la direccion de memoria de "otro", lo que provoca que ambos punteros apunten
+        //al mismo bloque de memoria provocando un shallow copy.
+        //Y al liberar la memoria, se haria doble liberacion para la misma direccion desencadenando un comportamiento indefinido.
+
         if(this != &otro){
             delete[] datos;
             datos = new char(strlen(otro.datos) + 1);
