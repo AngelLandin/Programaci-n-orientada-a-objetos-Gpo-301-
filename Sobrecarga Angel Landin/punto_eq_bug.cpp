@@ -8,6 +8,7 @@ class Punto {
 
     Punto(int x, int y) : x(x), y(y) {}
 
+    //Codigo corregido
     bool operator==(const Punto& p) const {
         return (x == p.x && y == p.y);  // BUG: ¿qué no está bien?
     }
