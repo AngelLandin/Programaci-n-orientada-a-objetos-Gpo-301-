@@ -9,15 +9,13 @@ public:
     Animal(string nombre, string raza) : nombre(nombre), raza(raza) {}
     
     void comer() {
-        cout <<" esta comiendo mmmm comidita" << endl;
+        cout << nombre <<" esta comiendo mmmm comidita" << endl;
     }
     void mostrar() {}
 };
 
 class Perro : public Animal {
 public:
-    string nombre;
-    string raza;
     int edad;
     Perro(string nombre, string raza, int edad) : Animal(nombre, raza), edad(edad) {}
     void ladrar() {
