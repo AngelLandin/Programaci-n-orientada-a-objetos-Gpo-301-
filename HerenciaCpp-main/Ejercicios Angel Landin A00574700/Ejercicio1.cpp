@@ -6,7 +6,7 @@ class Animal {
 public:
     
     void comer() {
-        cout <<"El animal esta comiendo mmmm comidita" << endl;
+        cout <<" esta comiendo mmmm comidita" << endl;
     }
     void mostrar() {}
 };
