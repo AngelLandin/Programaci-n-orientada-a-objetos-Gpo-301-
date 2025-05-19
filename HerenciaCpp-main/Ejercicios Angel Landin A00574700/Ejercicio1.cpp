@@ -4,6 +4,9 @@ using namespace std;
 // Completa aquí las clases:
 class Animal {
 public:
+    string nombre;
+    string raza;
+    Animal(string nombre, string raza) : nombre(nombre), raza(raza) {}
     
     void comer() {
         cout <<" esta comiendo mmmm comidita" << endl;
@@ -16,7 +19,7 @@ public:
     string nombre;
     string raza;
     int edad;
-    Perro(string nombre, string raza, int edad) : nombre(nombre), raza(raza), edad(edad) {}
+    Perro(string nombre, string raza, int edad) : Animal(nombre, raza), edad(edad) {}
     void ladrar() {
         cout << "Guauf guauf"<<endl;
     }
