@@ -22,3 +22,8 @@ int main() {
     c.mostrar();
     return 0;
 }
+/*
+En herencia protected, los miembros protected de la clase base siguen siendo accesibles en la clase derivada, pero no accesibles desde fuera.
+
+Cliente no puede acceder directamente desde main() a nombre, pero sí puede dentro de sus propios métodos.
+*/
