@@ -1,0 +1,6 @@
+---------------------- Login exitoso ---------------------------
+Nombre: Eduardo
+Correo: eduardhino@gmail.com
+ID: 123223
+Usuario ID[123223] - Eduardo ahora es Moderador.
+El ADMIN Eduardo ha baneado al usuario: Camilo

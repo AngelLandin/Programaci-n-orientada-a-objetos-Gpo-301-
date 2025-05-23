@@ -1,0 +1,22 @@
+Se encendio el dispositivo
+Apagando el dispositivo
+Dispositivo marca: Samsung
+Encendiendo la TV
+Apagando la TV 
+------------------------------------------TV------------------------------------------
+Dispositivo marca: Samsung
+Pulgadas: 25
+Tipo de Pantalla: LED
+Volumen: 78
+Encendiendo el DVD
+Apagando el DVD
+------------------------------------------DVD------------------------------------------
+Dispositivo marca: LG
+Tipo de Disco: SSD
+Se esta reproduciendo: 1
+------------------------------------------Control Remoto------------------------------------------
+Modelo: Apple
+Tiene bateria: 1
+Nivel de bateria: 88
+Informacion del dispositivo: 
+Dispositivo marca: Samsung

@@ -1,0 +1,6 @@
+---------------------Archivo multimedia-----------------------
+Formato Video: mp4, Formato Audio: mp3
+Reproduciendo un archivo/recurso multimedia
+Reproduciendo un audio en formato: AAC
+Formato de video: AVI
+Reproduciendo un archivo/recurso multimedia
