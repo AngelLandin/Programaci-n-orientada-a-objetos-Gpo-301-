@@ -1,5 +1,6 @@
 # Diagrama UML de la herencia virtual de clases
-```mermaind
+
+```mermaid
 classDiagram
     class Dispositivo {
         +string marca
