@@ -1,3 +1,53 @@
+# El diagrama es:
+
+```mermaid
+classDiagram
+    %% Definición de clases
+    class Dispositivo {
+        +marca: string
+        +Dispositivo(marca: string)
+        +encender(): void
+        +apagar(): void
+        +mostrarInformacion(): void
+    }
+
+    class TV {
+        +pulgadas: int
+        +tipoPantalla: string
+        +volumen: int
+        +TV(marca: string, pulgadas: int, tipoPantalla: string, volumen: int)
+        +encender(): void
+        +apagar(): void
+        +mostrarInformacion(): void
+    }
+
+    class DVD {
+        +tipoDisco: string
+        +reproduciendo: bool
+        +DVD(marca: string, tipoDisco: string, reproduciendo: bool)
+        +encender(): void
+        +apagar(): void
+        +mostrarInformacion(): void
+    }
+
+    class ControlRemoto {
+        +modelo: string
+        +tieneBateria: bool
+        +nivelBateria: int
+        +dispositivoActual: Dispositivo*
+        +ControlRemoto(modelo: string, bateria: bool, nivelBateria: int, dispositivo: Dispositivo*)
+        +mostrarInformacion(): void
+    }
+
+    %% Relaciones
+    Dispositivo <|-- TV
+    Dispositivo <|-- DVD
+    ControlRemoto --> Dispositivo : usa 
+```
+
+# El codigo es:
+
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -105,3 +155,4 @@ int main(){
  
     return 0;
 }
+```

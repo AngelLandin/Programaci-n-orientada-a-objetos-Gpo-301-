@@ -1,0 +1,5 @@
+Encendiendo dispositivo Samsung X200
+Mostrando interfaz táctil en una pantalla de 6.5 pulgadas
+Llamando desde +123456789 a +987654321
+Abriendo la app: WhatsApp en Samsung X200
+Apagando dispositivo Samsung X200
